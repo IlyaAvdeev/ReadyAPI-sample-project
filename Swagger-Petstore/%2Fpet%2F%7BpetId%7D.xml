@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="/pet/{petId}" path="/pet/{petId}" id="1e7e90f6-627b-4d2e-ba45-91070dc5906d" xmlns:con="http://eviware.com/soapui/config">
+<con:resource name="/pet/{petId}" path="/pet/{petId}" id="1e7e90f6-627b-4d2e-ba45-91070dc5906d" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="1e7e90f6-627b-4d2e-ba45-91070dc5906dfileName">%2Fpet%2F%7BpetId%7D</con:setting>
   </con:settings>
@@ -81,6 +81,10 @@ Find pet by ID</con:description>
     <con:request name="Request 1" id="21dd46d5-b8e4-4a3b-a0b7-897edd3c15a4" mediaType="application/json">
       <con:settings/>
       <con:endpoint>http://petstore.swagger.io</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>
@@ -116,6 +120,10 @@ Find pet by ID</con:description>
     <con:request name="Request 1" id="6a83ee0b-b3c5-4da1-9ca8-30f715ba0e75" mediaType="application/json">
       <con:settings/>
       <con:endpoint>http://petstore.swagger.io</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>
@@ -126,7 +134,7 @@ Find pet by ID</con:description>
       <con:parameter>
         <con:name>api_key</con:name>
         <con:style>HEADER</con:style>
-        <con:description xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:description xsi:nil="true"/>
       </con:parameter>
     </con:parameters>
     <con:representation type="RESPONSE">
@@ -152,6 +160,10 @@ Find pet by ID</con:description>
     <con:request name="Request 1" id="7b9c7a1c-b085-4569-8261-7e0b80642b9b" mediaType="application/json">
       <con:settings/>
       <con:endpoint>http://petstore.swagger.io</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>

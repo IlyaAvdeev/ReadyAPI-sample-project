@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:interface xsi:type="con:RestService" id="32a1b723-4a64-4c13-97fe-34e529faa987" name="Swagger Petstore" type="rest_ex" wadlVersion="https://swagger.io/swagger2/specification" definitionUrl="https://petstore.swagger.io/v2/swagger.json" basePath="/v2" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<con:interface xsi:type="con:RestService" id="32a1b723-4a64-4c13-97fe-34e529faa987" name="Swagger Petstore" type="rest_ex" wadlVersion="https://swagger.io/swagger2/specification" definitionUrl="https://petstore.swagger.io/v2/swagger.json" basePath="/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:description>This is a sample server Petstore server.  You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key `special-key` to test the authorization filters.</con:description>
   <con:settings>
     <con:setting id="32a1b723-4a64-4c13-97fe-34e529faa987fileName">Swagger-Petstore</con:setting>

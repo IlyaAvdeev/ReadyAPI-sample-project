@@ -1,0 +1,15 @@
+Swagger-Petstore\%2Fpet%2F%7BpetId%7D%2FuploadImage.xml
+Swagger-Petstore\%2Fpet%2F%7BpetId%7D.xml
+Swagger-Petstore\%2Fpet%2FfindByStatus.xml
+Swagger-Petstore\%2Fpet%2FfindByTags.xml
+Swagger-Petstore\%2Fpet.xml
+Swagger-Petstore\%2Fstore%2Finventory.xml
+Swagger-Petstore\%2Fstore%2Forder%2F%7BorderId%7D.xml
+Swagger-Petstore\%2Fstore%2Forder.xml
+Swagger-Petstore\%2Fuser%2F%7Busername%7D.xml
+Swagger-Petstore\%2Fuser%2FcreateWithArray.xml
+Swagger-Petstore\%2Fuser%2FcreateWithList.xml
+Swagger-Petstore\%2Fuser%2Flogin.xml
+Swagger-Petstore\%2Fuser%2Flogout.xml
+Swagger-Petstore\%2Fuser.xml
+Project-1-TestSuite-1\Project-1-TestCase-1.xml
