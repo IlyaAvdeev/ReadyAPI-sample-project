@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="/user" path="/user" id="312d27f7-c886-4a9c-b160-b6b0bda5300b" xmlns:con="http://eviware.com/soapui/config">
+<con:resource name="/user" path="/user" id="312d27f7-c886-4a9c-b160-b6b0bda5300b" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="312d27f7-c886-4a9c-b160-b6b0bda5300bfileName">%2Fuser</con:setting>
   </con:settings>
@@ -22,6 +22,10 @@ Create user</con:description>
     <con:request name="Request 1" id="d06c4831-5380-487a-ab43-16bfd54a3b3c" mediaType="application/json">
       <con:settings/>
       <con:endpoint>http://petstore.swagger.io</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>

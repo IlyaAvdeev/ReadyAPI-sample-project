@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="/store/order/{orderId}" path="/store/order/{orderId}" id="2e49f3eb-6d74-482e-a077-21b05d2b067b" xmlns:con="http://eviware.com/soapui/config">
+<con:resource name="/store/order/{orderId}" path="/store/order/{orderId}" id="2e49f3eb-6d74-482e-a077-21b05d2b067b" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="2e49f3eb-6d74-482e-a077-21b05d2b067bfileName">%2Fstore%2Forder%2F%7BorderId%7D</con:setting>
   </con:settings>
@@ -65,6 +65,10 @@ Find purchase order by ID</con:description>
     <con:request name="Request 1" id="851bd740-eda1-4e13-b213-5916eca0fc7d" mediaType="application/json">
       <con:settings/>
       <con:endpoint>http://petstore.swagger.io</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>
@@ -96,6 +100,10 @@ Delete purchase order by ID</con:description>
     <con:request name="Request 1" id="a1bc554c-6278-4e83-a270-2ebb8cab413c" mediaType="application/json">
       <con:settings/>
       <con:endpoint>http://petstore.swagger.io</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>
